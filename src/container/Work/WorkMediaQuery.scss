@@ -1,0 +1,21 @@
+@media screen and (min-width: 2000px) {
+  .app__work-filter-item {
+    padding: 1rem 2rem;
+    border-radius: 0.85rem;
+  }
+  .app__work-img {
+    height: 350px;
+  }
+  .app__work-item {
+    width: 47px;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__work-item {
+    width: 100%;
+    margin: 1rem;
+  }
+}

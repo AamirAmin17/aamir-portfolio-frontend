@@ -1,0 +1,21 @@
+@media screen and (min-width: 2000px) {
+  .app__testimonial-item {
+    min-height: 450px;
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__testimonial-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .app__testimonial-item {
+    flex-direction: column;
+  }
+}
